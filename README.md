@@ -10,7 +10,9 @@ If you want to know more, search with "vscode markdown" or refer to official doc
 
 使用言語はC言語(またはC++)
 
-環境についてはここではUbuntu gccを例に挙げるがMicrosoftへの信仰が篤い場合は下記の説明のmakeファイルではなく`.sln`, `vcxproj`, `vcxproj.filters`
+環境についてはここではUbuntu gccを例に挙げるが、Microsoftへの信仰が篤い場合は下記の説明のmakefileではなく`.sln`ファイル等を提出しても構わない。
+
+課題や課題の提出を通してGitHubにも慣れるとよい。
 
 ## 提出方法
 

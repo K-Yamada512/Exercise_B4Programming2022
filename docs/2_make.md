@@ -70,7 +70,7 @@ _TARGET_ : _DEPENDENT_FILES_
 
 ターゲットを書く順番は関係ない。
 
-しかしデフォルトゴールを指定しない場合は一番最初のデフォルトのターゲットとして設定される。
+しかしデフォルトゴールを指定しない場合は一番最初のターゲットがデフォルトのターゲットとして設定される。
 
 ```makefile
 # makefile
@@ -106,7 +106,7 @@ make: 'sample.out' is up to date.
 ```
 
 と出るはずである。_TARGET_のファイルが既に存在しているか、_DEPENDENT_FILES_に変更がない場合はmakeはそのターゲットを実行しない。
-ちなみに変更を加えればいいわけで、`touch`コマンドでタイムスタンプを更新すると
+ちなみに変更を加えればいいわけで、ソースコードを編集したり、`touch`コマンドでタイムスタンプを更新すると
 ```
 touch sample.c
 ```
@@ -180,7 +180,14 @@ clean :
 
 ここまでくるともう立派なmakefile
 
-`make`でsample.outを作成、`make clean`でsample.outを削除できる。
+```
+make
+````
+でsample.outを作成、
+```
+make clean
+```
+でsample.outを削除できる。
 
 ## コマンドの非表示
 

@@ -11,6 +11,8 @@ If you want to know more, search with "vscode markdown" or refer to official doc
 ## 提出先
 GitHub
 
+パブリックレポジトリかプライベートレポジトリにcollaboratorsに招待してもらう。
+
 ## 提出物
 - ソースコード
 - makefile
@@ -18,7 +20,9 @@ GitHub
 
 1から6の問ごとにレポジトリを作成すること。
 
-Markdownは"readme.md"とすること。
+Markdownのファイル名は"readme.md"とすること。そこから他のMarkdownファイルの参照をすることは構わない。
+
+`makefile`の代わりに`.sln`,`vcxproj`, `vcxproj.filters`のセットを提出してもよい。
 
 ## 提出期限
 4月下旬
