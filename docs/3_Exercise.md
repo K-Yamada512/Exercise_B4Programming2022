@@ -30,7 +30,7 @@ Markdownのファイル名は"readme.md"とすること。そこから他のMark
 
 ## 問題
 
-以下の問題は別に画像としても提供する。[image](./image/pe2022a4.svg)
+以下の問題は別に画像としても提供する。[image](./3_Exercise_image.md)
 
 ### 問1 基本
 
