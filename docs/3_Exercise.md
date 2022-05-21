@@ -91,14 +91,14 @@ $$
 
 $$
 \begin{align*}
-(1) \ \ \bm{x} + \bm{y} \ \ \ 
-(2) \ \ \bm{x} \cdot \bm{y} \ \ \ 
-(3) \ \ ^t\bm{x} \bm{y} \ \ \ 
-(4) \ \ A \bm{x} \ \ \ 
-(5) \ \ AB \ \ \ 
-(6) \ \ BA \ \ \ 
-(7) \ \ B^{-1} \ \ \ 
-(8) \ \ ^t \left( AB \right) \ \ \ 
+(1) \ \ {\bm x} + {\bm y}
+(2) \ \ {\bm x} \cdot {\bm y}
+(3) \ \ ^t{\bm x} {\bm y}
+(4) \ \ A {\bm x}
+(5) \ \ AB
+(6) \ \ BA
+(7) \ \ B^{-1}
+(8) \ \ ^t \left( AB \right)
 \end{align*}
 $$
 
@@ -113,6 +113,9 @@ $y=f(x) = \sin (x)$の$x$の値を区間$[0, 2 \pi]$の範囲でテキストフ�
 $$
 \begin{align*}
 &(1) \ \ \lim_{n \rightarrow \infty} \sum_{m=1}^n \frac{{(-1)}^{m-1}}{m} = \log 2\\
+\end{align*}
+
+\begin{align*}
 &(2) \ \ \lim_{n \rightarrow \infty} \sum_{m=0}^n \frac{{(-1)}^m}{2m + 1} = \frac{\pi}{4}\\
 \end{align*}
 $$
