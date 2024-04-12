@@ -5,17 +5,6 @@ You can preview on such as VisualStudio Code.
 If you want to know more, search with "vscode markdown" or refer to official document https://code.visualstudio.com/Docs/languages/markdown .
 
 -->
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
- MathJax.Hub.Config({
- tex2jax: {
- inlineMath: [['$', '$'] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
- }
- });
-</script>
-
 # 3. 課題
 
 ## 提出先
@@ -131,8 +120,7 @@ Markdownに関数の引数、戻り値、具体的な処理の説明を記述し
 ただし$m=1.0,k=1.0,g=9.8,$初速$v(0)=0.0,$計算終了の時刻$T_{max}=2.0$とする。
 
 
-下の運動方程式にオイラー法と4次のルンゲ＝クッタ法を適用し、各時刻において逐次$v(t+\Delta t)$  
-を求めて出力するコードを書く。計算部分は関数を用意する。
+下の運動方程式にオイラー法と4次のルンゲ＝クッタ法を適用し、各時刻において逐次$v(t+\Delta t)$を求めて出力するコードを書く。計算部分は関数を用意する。
 
 $$
 \begin{align*}
