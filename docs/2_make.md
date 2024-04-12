@@ -43,7 +43,7 @@ gcc source.cpp module.cpp add.cpp sub.cpp
 apt install make
 ```
 
-ちなみに`gcc`や`make`を一括で入れるときは一つ一つでなく`build-essentials`でも構わない。(余計なものが少し入るが)
+ちなみに`gcc`や`make`を一括で入れるときは一つ一つでなく`build-essential`でも構わない。(余計なものが少し入るが)
 
 ## `makefile`を書く
 
