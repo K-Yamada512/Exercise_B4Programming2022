@@ -5,6 +5,16 @@ You can preview on such as VisualStudio Code.
 If you want to know more, search with "vscode markdown" or refer to official document https://code.visualstudio.com/Docs/languages/markdown .
 
 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+ tex2jax: {
+ inlineMath: [['$', '$'] ],
+ displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+ }
+ });
+</script>
 
 # 3. 課題
 
@@ -117,7 +127,7 @@ Markdownに関数の引数、戻り値、具体的な処理の説明を記述し
 ### 問7 数値解析2
 
 以下の落下物体の運動方程式をオイラー法と4次のルンゲ＝クッタ法を用いてそれぞれ解け。  
-$(v(t)\text{：速度　}g\text{：重力加速度　}k\text{：空気の摩擦の定数　}m\text{：質量})$  
+($v(t)$：速度　$g$：重力加速度　$k$：空気の摩擦の定数　$m$：質量)  
 ただし$m=1.0,k=1.0,g=9.8,$初速$v(0)=0.0,$計算終了の時刻$T_{max}=2.0$とする。
 
 
