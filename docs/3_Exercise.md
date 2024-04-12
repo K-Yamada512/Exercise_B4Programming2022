@@ -5,7 +5,6 @@ You can preview on such as VisualStudio Code.
 If you want to know more, search with "vscode markdown" or refer to official document https://code.visualstudio.com/Docs/languages/markdown .
 
 -->
-
 # 3. 課題
 
 ## 提出先
@@ -114,6 +113,35 @@ Markdownに関数の引数、戻り値、具体的な処理の説明を記述し
 
 Markdownに関数の引数、戻り値、具体的な処理の説明を記述し、出力したコンソールのスクリーンショットを載せること。
 
+### 問7 数値解析2
+
+以下の落下物体の運動方程式をオイラー法と4次のルンゲ＝クッタ法を用いてそれぞれ解け。  
+($v(t)$：速度　$g$：重力加速度　$k$：空気の摩擦の定数　$m$：質量)  
+ただし$m=1.0,k=1.0,g=9.8,$初速$v(0)=0.0,$計算終了の時刻$T_{max}=2.0$とする。
+
+
+下の運動方程式にオイラー法と4次のルンゲ＝クッタ法を適用し、各時刻において逐次$v(t+\Delta t)$を求めて出力するコードを書く。計算部分は関数を用意する。
+
+$$
+\begin{align*}
+\frac{d}{dt} v(t) = g - \frac{k}{m}v(t)
+\end{align*}
+$$
+
+### 問８ 離散フーリエ変換
+
+以下の周期的なガウス分布$f(x)(f(0)=f(N))$を離散フーリエ変換するコードを作成し波数$k$が周期的かつ離散的になることを確認し、フーリエ変換後の値を波数空間でプロットせよ。  
+ただし$\mu$：平均 , $\sigma^{2}$：分散であり、$\mu = 10,\sigma = 2, N = 20$として計算すること。
+
+
+$x=0,1,2,\cdots,N$で$f(x)$をサンプリングし、下の離散フーリエ変換の式を用いて実部と虚部に分けてプロットする。
+
+$$
+\begin{align*}
+&\text{ガウス分布の式}& \hspace{10pt} f(x) &= \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp{\left( - \frac{(x - \mu)^{2}}{2\sigma^{2}} \right)}\\
+&\text{離散フーリエ変換の式}& \hspace{10pt} F(k) &= \sum^{N-1}_{x=0}f(x)\exp{\left( -i \frac{kx}{N} \right)}
+\end{align*}
+$$
 
 ----
 [Back to Home](../readme.md)
